@@ -13,7 +13,7 @@
 
 // ─── URL base de la API PHP ───────────────────────────────────────────────────
 // Ajusta esta ruta según donde tengas XAMPP corriendo
-const API_BASE = 'http://localhost/api';
+const API_BASE = 'http://localhost/novasmile_api';
 
 /**
  * Mapea el rol que devuelve la API PHP al nombre de página
