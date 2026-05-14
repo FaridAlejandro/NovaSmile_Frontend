@@ -1,0 +1,40 @@
+/* Nova Smile - Global Styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Spinner overlay */
+.spinner-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.6);
+  z-index: 999;
+  align-items: center;
+  justify-content: center;
+}
+.spinner-overlay.show {
+  display: flex;
+}
+
+/* Toast container */
+.toast-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1100;
+}
+
+/* Paciente panel styles */
+:root {
+  --color-caries: #ff4d4d;
+  --color-tratado: #4d94ff;
+  --color-ausente: #212529;
+  --color-sano: #ffffff;
+  --info-smile: #0dcaf0;
+  --bg-body: #f8fafc;
+  --ns-pac: #0dcaf0;
+  --ns-pac-dk: #0891b2;
+}
